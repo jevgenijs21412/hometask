@@ -156,7 +156,7 @@ Based on requirement - required, minimum 8 characters, at least 1 uppercase, 1 l
 ### Bug 3: Cursor Blinking on Label When Clicked Instead of Focusing on Input Field
 
 - **Bug ID**: BUG_0003
-- **Description**: When the user clicks on the label (e.g., Username), the text cursor blinks inside the label itself.
+- **Description**: When the user clicks on the label (e.g., Username) or outside input, the text cursor blinks inside the label itself.
 - **Priority**: High
 
 #### Preconditions:
@@ -168,6 +168,8 @@ Based on requirement - required, minimum 8 characters, at least 1 uppercase, 1 l
 
 #### Actual Result:
 - Blinking cursor appears inside the label.
+- ![image](https://github.com/user-attachments/assets/9a5ab492-e53a-4f2d-8cf3-bdc69e0038da)
+- ![image](https://github.com/user-attachments/assets/3b8736e6-e830-4db0-b186-bb80956271f1)
 
 #### Expected Result:
 - Blinking cursor should appear inside the corresponding text input field.

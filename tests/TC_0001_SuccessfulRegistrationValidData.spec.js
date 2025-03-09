@@ -12,9 +12,9 @@ test('TC_0001: Successful Registration with Valid Data', async ({ page }) => {
 
     //  Fill the form
     const credentials = {
-        username: "test",
-        email: "testuser@example.com",
-        password: "Password123"
+        username: "TestUser123",
+        email: "test@example.com",
+        password: "Password1231"
     }
 
     await registerPage.register(credentials)

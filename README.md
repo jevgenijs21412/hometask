@@ -123,7 +123,7 @@
 - The form submits successfully, and the user is redirected to the Home Page.
 
 #### Expected Result:
-- There should be a validation preventing the use of an already registered email.
+- There is no exact requirement about registration. But I assume that registration should be valid once for one email.
 
 ---
 
@@ -149,6 +149,7 @@
 
 #### Expected Result:
 - The form should not submit and should display an error message: "Password must be at least 8 characters with 1 uppercase, 1 lowercase, and 1 number."
+Based on requirement - required, minimum 8 characters, at least 1 uppercase, 1 lowercase, and 1 number. Special characters not mentioned.
 
 ---
 
@@ -171,7 +172,17 @@
 #### Expected Result:
 - Blinking cursor should appear inside the corresponding text input field.
 
-#### **Note**: This issue affects user experience, UI consistency, and form functionality.
+#### **Note**:
+
+Set priority to High as:
+
+User Experience Impact: Although the user can input text into the field, the blinking cursor in the label is visually confusing and goes against common form interaction patterns. This could confuse new users and cause unnecessary frustration.
+
+UI Consistency: Labels should not behave as interactive elements, and this issue creates inconsistency in the UI design. It can cause the user to question whether the label is part of the input or not.
+
+Form Functionality: While the form technically works, the improper behavior of the cursor creates a non-intuitive experience, making the user interaction less seamless.
+
+Visibility: Since this bug occurs right when the user interacts with the form, it’s highly visible and could affect first impressions of the webapp
 
 ---
 

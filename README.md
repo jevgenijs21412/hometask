@@ -167,8 +167,9 @@ Based on requirement - required, minimum 8 characters, at least 1 uppercase, 1 l
 2. Press on any label (e.g., Username).
 
 #### Actual Result:
-- Blinking cursor appears inside the label.
+- Blinking cursor appears outside the field.
 - ![image](https://github.com/user-attachments/assets/9a5ab492-e53a-4f2d-8cf3-bdc69e0038da)
+- Blinking cursor appears inside the label.
 - ![image](https://github.com/user-attachments/assets/3b8736e6-e830-4db0-b186-bb80956271f1)
 
 #### Expected Result:

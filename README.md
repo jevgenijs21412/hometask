@@ -177,7 +177,7 @@
 
 ## Task 3: Repository
 
-**Information**: To be added.
+**Information**: In current repository
 
 ---
 
